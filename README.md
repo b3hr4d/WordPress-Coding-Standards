@@ -18,7 +18,7 @@
 </div>
 
 
-# WordPress Coding Standards for PHP_CodeSniffer
+# Forked WordPress Coding Standards for making oop wordpress plugin
 
 * [Introduction](#introduction)
 * [Project history](#project-history)
