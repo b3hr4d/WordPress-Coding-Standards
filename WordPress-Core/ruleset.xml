@@ -339,7 +339,7 @@
 	<!-- Covers rule: Files containing template tags in wp-includes should have "-template"
 		 appended to the end of the name.
 		 https://github.com/WordPress/WordPress-Coding-Standards/issues/642 -->
-	<rule ref="WordPress.Files.FileName"/>
+	<!-- <rule ref="WordPress.Files.FileName"/> -->
 
 
 	<!--

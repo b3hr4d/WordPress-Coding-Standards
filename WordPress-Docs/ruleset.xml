@@ -10,6 +10,8 @@
 
 	<rule ref="Squiz.Commenting">
 		<!-- Excluded to allow /* translators: ... */ comments -->
+		<exclude name="Squiz.Commenting.FunctionComment.Missing"/>
+		<!-- Excluded to allow /* translators: ... */ comments -->
 		<exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
 		<!-- Sniff seems to require indenting with spaces -->
 		<exclude name="Squiz.Commenting.BlockComment.FirstLineIndent"/>
@@ -89,6 +91,8 @@
 	</rule>
 
 	<rule ref="Generic.Commenting.DocComment">
+		<!-- WP has different alignment of doc comment values -->
+		<exclude name="Generic.Commenting.DocComment.MissingShort"/>
 		<!-- WP has different alignment of tag values -->
 		<exclude name="Generic.Commenting.DocComment.TagValueIndent"/>
 		<!-- WP has a different prefered order of tags -->

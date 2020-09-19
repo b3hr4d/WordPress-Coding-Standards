@@ -46,7 +46,6 @@
 	<rule ref="PEAR.Files.IncludingFile.UseRequireOnce">
 		<type>warning</type>
 	</rule>
-
 	<!-- Check correct spacing of language constructs. This also ensures that the
 	     above rule for not using brackets with require is fixed correctly.
 		 https://github.com/WordPress/WordPress-Coding-Standards/issues/1153 -->
