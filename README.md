@@ -61,21 +61,6 @@ This project is a collection of [PHP_CodeSniffer](https://github.com/squizlabs/P
 
 The WordPress Coding Standards require PHP 5.4 or higher and [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) version **3.3.1** or higher.
 
-### Composer
-
-Standards can be installed with the [Composer](https://getcomposer.org/) dependency manager:
-
-    composer create-project wp-coding-standards/wpcs --no-dev
-
-Running this command will:
-
-1. Install WordPress standards into `wpcs` directory.
-2. Install PHP_CodeSniffer.
-3. Register WordPress standards in PHP_CodeSniffer configuration.
-4. Make `phpcs` command available from `wpcs/vendor/bin`.
-
-For the convenience of using `phpcs` as a global command, you may want to add the path to the `wpcs/vendor/bin` directory to a `PATH` environment variable for your operating system.
-
 #### Installing WPCS as a dependency
 
 When installing the WordPress Coding Standards as a dependency in a larger project, the above mentioned step 3 will not be executed automatically.
