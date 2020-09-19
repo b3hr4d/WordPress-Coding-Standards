@@ -339,7 +339,7 @@
 	<!-- Covers rule: Files containing template tags in wp-includes should have "-template"
 		 appended to the end of the name.
 		 https://github.com/WordPress/WordPress-Coding-Standards/issues/642 -->
-	<!-- <rule ref="WordPress.Files.FileName"/> -->
+	<rule ref="WordPress.Files.FileName"></rule>
 
 
 	<!--
@@ -465,12 +465,6 @@
 	<!-- Important to prevent issues with content being sent before headers. -->
 	<rule ref="Generic.Files.ByteOrderMark"/>
 
-	<!-- All line endings should be \n. -->
-	<rule ref="Generic.Files.LineEndings">
-		<properties>
-			<property name="eolChar" value="\n"/>
-		</properties>
-	</rule>
 
 	<!-- All files should end with a new line. -->
 	<rule ref="Generic.Files.EndFileNewline"/>

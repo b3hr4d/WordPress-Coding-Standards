@@ -10,6 +10,8 @@
 
 	<rule ref="Squiz.Commenting">
 		<!-- Excluded to allow /* translators: ... */ comments -->
+		<exclude name="Squiz.Commenting.VariableComment.Missing"/>
+		<!-- Excluded to allow /* translators: ... */ comments -->
 		<exclude name="Squiz.Commenting.FunctionComment.Missing"/>
 		<!-- Excluded to allow /* translators: ... */ comments -->
 		<exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
