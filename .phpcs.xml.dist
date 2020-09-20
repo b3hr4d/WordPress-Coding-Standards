@@ -31,6 +31,8 @@
 
 	<rule ref="PSR2.Methods.FunctionClosingBrace"/>
 
+	<rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
+
 	<!-- Check code for cross-version PHP compatibility. -->
 	<config name="testVersion" value="5.4-"/>
 	<rule ref="PHPCompatibility">
