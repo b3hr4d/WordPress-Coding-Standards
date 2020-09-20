@@ -30,6 +30,7 @@
 	<rule ref="Squiz.Operators.IncrementDecrementUsage"/>
 	<rule ref="Squiz.Operators.ValidLogicalOperators"/>
 	<rule ref="Squiz.Functions.FunctionDuplicateArgument"/>
+	<rule ref="Squiz.NamingConventions.ValidFunctionName"/>
 
 	<!-- And even more generic PHP best practices.
 		 https://github.com/WordPress/WordPress-Coding-Standards/pull/809 -->
