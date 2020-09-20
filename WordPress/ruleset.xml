@@ -10,6 +10,7 @@
 	<rule ref="WordPress-Docs"/>
 	<rule ref="WordPress-Extra">
 		<!-- Prevent duplicate messages + deprecation notice from deprecated sniff. -->
+		<exclude name="WordPress.NamingConventions.ValidFunctionName"/>
 		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
 		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
 		<exclude name="WordPress.WP.TimezoneChange.timezone_change_date_default_timezone_set"/>
